@@ -4,6 +4,11 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "swords"
     },
+    "image2": {
+        "data": "hwQQABAAAAAiIiJCRERVVSIiIkJERFVVIiIiQkREVVUiIiJCRERVVSIiIkJERFVVIiIiQkREVVUiIiJCRERVVSIiIkJERFVVIiIiQkREVVUiIiJCRERVVSIiIkJERFVVIiIiQkREVVUiIiJCRERVVSIiIkJERFVVIiIiQkREVVUiIiJCRERVVQ==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "lava"
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",
