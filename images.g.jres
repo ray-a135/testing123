@@ -1,0 +1,12 @@
+{
+    "image1": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAA4AAAsLu7u7vr7gAAu7u7u+AOAACwu7sA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAACwu7u7u+vuALC7u7u74A4AALC7CwDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "swords"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
