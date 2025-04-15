@@ -27,29 +27,29 @@ mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
 let mySprite3 = sprites.create(img`
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
+    2 2 2 2 f f f f f f f f 2 2 2 2 
+    2 2 . f f f f f f f f f f . 2 2 
+    2 2 f . f f f f f f f f . f 2 2 
+    2 2 . . f f f f f f f f . . 2 2 
+    2 2 . f f f f f f f f f f . 2 2 
+    2 2 f . f f f f f f f f . f 2 2 
+    2 . f . f f f f f f f f . . f 2 
+    2 . . f f f f f f f f f . f . 2 
+    2 . . . f f . . . . . f f . . 2 
+    2 . . f . . f . . . f . . f . 2 
+    2 . f . . . . f . f . . . . f 2 
+    2 f . . . . . . f . . . . . . 2 
+    2 . . . . . . f . f . . . . . 2 
+    2 . . . . . f . . . f . . . . 2 
+    2 . . . . f . . . . . f . . . 2 
+    2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
     `, SpriteKind.Enemy)
 let mySprite4 = sprites.create(img`
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
+    . f f 8 8 8 8 f f f 8 8 8 8 8 . 
+    . f f 8 8 8 8 f f f 8 8 8 8 8 . 
+    . f f 8 8 8 8 f f f 8 8 8 8 8 . 
+    . f f 8 8 8 8 f f f 8 8 8 8 8 . 
+    . f f 8 8 8 8 f f f 8 8 8 8 8 . 
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
@@ -82,4 +82,4 @@ mySprite2 = sprites.create(img`
     `, SpriteKind.Enemy)
 let mySprite5 = sprites.create(assets.image`lava`, SpriteKind.Projectile)
 let mySprite6 = sprites.create(assets.image`swords`, SpriteKind.Projectile)
-let mySprite7 = sprites.create(assets.image`fireball`, SpriteKind.Player)
+let mySprite7 = sprites.create(assets.image`fireball`, SpriteKind.Projectile)
