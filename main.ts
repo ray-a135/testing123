@@ -130,6 +130,9 @@ scene.setBackgroundImage(img`
     3333333222222222222222233333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333
     `)
 tiles.setCurrentTilemap(tilemap`level1`)
+tiles.setCurrentTilemap(tilemap`level3`)
+tiles.setCurrentTilemap(tilemap`level4`)
+tiles.setCurrentTilemap(tilemap`level5`)
 info.setLife(3000)
 mySprite = sprites.create(img`
     2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
@@ -149,6 +152,7 @@ mySprite = sprites.create(img`
     2 . . . . . . . . . . . . . . 2 
     2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
     `, SpriteKind.Player)
+scene.cameraFollowSprite(mySprite)
 controller.player1.moveSprite(mySprite)
 let mySprite8 = sprites.create(assets.image`player 2`, SpriteKind.Player)
 controller.player2.moveSprite(mySprite8)
