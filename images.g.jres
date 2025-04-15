@@ -14,6 +14,11 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "fireball"
     },
+    "image4": {
+        "data": "hwQQABAAAAD/////LyIiIv////8vIiIi/////y8iIiL/////LyIiIv////8vIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi/////y8iIiL/////LyIiIv////8vIiIi/////y8iIiL/////LyIiIg==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "player 2"
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",
