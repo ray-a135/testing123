@@ -60,6 +60,25 @@ namespace myImages {
 . . . . 4 4 . . . . 4 . . . . . 
 . . . . . . . . . . . . . . . . 
 `;
+            case "image4":
+            case "player 2":return img`
+f f f f f 2 2 2 2 2 2 f f f f f 
+f f f f f 2 2 2 2 2 2 f f f f f 
+f f f f f 2 2 2 2 2 2 f f f f f 
+f f f f f 2 2 2 2 2 2 f f f f f 
+f f f f f 2 2 2 2 2 2 f f f f f 
+f f f f f 2 2 2 2 2 2 f f f f f 
+f f f f f 2 2 2 2 2 2 f f f f f 
+f f f f f 2 2 2 2 2 2 f f f f f 
+f f f f f 2 2 2 2 2 2 f f f f f 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+`;
         }
         return null;
     })
