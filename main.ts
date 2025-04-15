@@ -4,6 +4,16 @@ controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     projectile = sprites.createProjectileFromSprite(assets.image`swords`, mySprite2, 50, 50)
 })
+function win () {
+	
+}
+info.onLifeZero(function () {
+    game.gameOver(false)
+    game.setGameOverEffect(false, effects.clouds)
+})
+scene.onOverlapTile(SpriteKind.Player, assets.tile`transparency16`, function (sprite, location) {
+	
+})
 let projectile: Sprite = null
 let mySprite2: Sprite = null
 let mySprite: Sprite = null
@@ -133,7 +143,7 @@ tiles.setCurrentTilemap(tilemap`level1`)
 tiles.setCurrentTilemap(tilemap`level3`)
 tiles.setCurrentTilemap(tilemap`level4`)
 tiles.setCurrentTilemap(tilemap`level5`)
-info.setLife(3000)
+info.setLife(1000)
 mySprite = sprites.create(img`
     2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
     2 . . . . . . . . . . . . . . 2 
@@ -157,7 +167,7 @@ controller.player1.moveSprite(mySprite)
 let mySprite8 = sprites.create(assets.image`player 2`, SpriteKind.Player)
 controller.player2.moveSprite(mySprite8)
 let mySprite3 = sprites.create(img`
-    2 2 2 2 f f f f f f f f 2 2 2 2 
+    2 2 2 2 f f f f f f f 3 2 2 2 2 
     2 2 . f f f f f f f f f f . 2 2 
     2 2 f . f f f f f f f f . f 2 2 
     2 2 . . f f f f f f f f . . 2 2 
